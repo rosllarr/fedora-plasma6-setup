@@ -1,5 +1,6 @@
 if status is-interactive
     set EDITOR /usr/bin/vi
+    set VAGRANT_DEFAULT_PROVIDER libvirt
     fish_add_path -g ~/.cargo/bin
     fish_add_path -g ~/.local/bin
 
