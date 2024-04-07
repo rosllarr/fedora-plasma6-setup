@@ -8,6 +8,6 @@
 8. copy functions (ls.fish, tree.fish)
 9. install fisher
 10. install nerdfonts
-11. install group virtualization container-management
-12. install package vagrant
+11. install group virtualization and install package vagrant
+12. install group container-management and package buildah
 13. install google-chrome-stable
