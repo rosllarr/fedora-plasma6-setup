@@ -9,5 +9,7 @@
 9. install fisher
 10. install nerdfonts
 11. install group virtualization and install package vagrant
-12. install group container-management and package buildah
-13. install google-chrome-stable
+12. install group container-management (for podman stack)
+13. install docker
+14. install google-chrome-stable
+15. install openfortivpn
