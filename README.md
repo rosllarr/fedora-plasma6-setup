@@ -13,3 +13,9 @@
 13. install docker
 14. install google-chrome-stable
 15. install openfortivpn
+16. enable flathub and install insomnia
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo --user
+flatpak install flathub rest.insomnia.Insomnia --user
+```
