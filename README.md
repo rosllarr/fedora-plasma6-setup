@@ -12,4 +12,4 @@
 12. install group container-management (for podman stack)
 13. install docker
 14. install google-chrome-stable
-15. install openfortivpn
+15. install openfortivpn nmap
