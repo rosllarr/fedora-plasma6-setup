@@ -16,6 +16,9 @@ sudo dnf install -y gstreamer1-plugins-bad-free-extras gstreamer1-plugin-openh26
 
 ```bash
 sudo dnf install -y git keepassxc cargo fish btop
+git config --global user.name nutthawit
+git config --global user.name rosllarr
+git config --global user.email rosllarr@tutanota.com
 ```
 
 5. install fzf (all answer 'Y')
