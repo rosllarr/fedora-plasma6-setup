@@ -6,7 +6,7 @@ sudo dnf install -y https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-rel
 sudo dnf config-manager --enable fedora-cisco-openh264
 ```
 
-3. install gstreamer1-plugins-bad-free-extras gstreamer1-plugin-openh264 vlc youtube-dl
+3. install gstreamer1-plugins-bad-free-extras gstreamer1-plugin-openh264 vlc youtube-dl telegram-desktop
 
 ```bash
 sudo dnf install -y gstreamer1-plugins-bad-free-extras gstreamer1-plugin-openh264 vlc youtube-dl
@@ -78,6 +78,26 @@ sudo dnf install -y google-chrome-stable
 
 ```bash
 sudo dnf install -y openfortivpn nmap
+```
+
+14. enable flathub & install insomnia telegram
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo --user
+flatpak install flathub rest.insomnia.Insomnia --user
+flatpak install flathub org.telegram.desktop --user
+```
+
+15. fix telegram font on flathub
+
+```bash
+# https://github.com/flatpak/flatpak/issues/5425#issuecomment-1748980566
+
+cd ~/.var/app/org.telegram.desktop/config
+mkdir -p fontconfig/conf.d
+cd fontconfig/conf.d
+cp /etc/fonts/conf.d/*.conf ./
+# Restart Telegram
 ```
 
 <!-- 11. install group virtualization and install package vagrant -->
