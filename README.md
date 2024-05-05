@@ -100,5 +100,11 @@ cp /etc/fonts/conf.d/*.conf ./
 # Restart Telegram
 ```
 
+16. install dependencies for tor browser
+
+```bash
+sudo dnf install dbus-glib
+```
+
 <!-- 11. install group virtualization and install package vagrant -->
 <!-- 13. install docker -->
