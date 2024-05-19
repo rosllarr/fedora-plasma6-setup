@@ -80,12 +80,13 @@ sudo dnf install -y google-chrome-stable
 sudo dnf install -y openfortivpn nmap
 ```
 
-14. enable flathub & install insomnia telegram
+14. enable flathub & install insomnia telegram anydesk
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo --user
 flatpak install flathub rest.insomnia.Insomnia --user
 flatpak install flathub org.telegram.desktop --user
+flatpak install flathub com.anydesk.Anydesk --user
 ```
 
 15. fix telegram font on flathub
