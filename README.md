@@ -109,3 +109,16 @@ sudo dnf install dbus-glib
 
 <!-- 11. install group virtualization and install package vagrant -->
 <!-- 13. install docker -->
+
+17. shortcut kwin
+
+- meta+w maximum window
+- meta+s minmize window
+- meta+a left maximum
+- meta+d right maximum
+- meta+tab overview
+
+18. shortcut konsole
+
+- alt+left move left
+- alt+right move right
