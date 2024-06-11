@@ -74,10 +74,10 @@ sudo dnf config-manager --set-enabled google-chrome
 sudo dnf install -y google-chrome-stable
 ```
 
-13. install openfortivpn nmap
+13. install openfortivpn nmap nodejs
 
 ```bash
-sudo dnf install -y openfortivpn nmap
+sudo dnf install -y openfortivpn nmap nodejs
 ```
 
 14. enable flathub & install insomnia telegram anydesk
