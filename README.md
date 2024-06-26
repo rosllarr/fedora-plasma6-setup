@@ -117,8 +117,28 @@ sudo dnf install dbus-glib
 - meta+a left maximum
 - meta+d right maximum
 - meta+tab overview
+- meta+[1..7] workspace 1-7
+- meta+shift+[1..7] window to workspace 1-7
+- meta+tab present window current desktop
+- meta+esc present window all desktop
+- alt+tab walk through windows
 
 18. shortcut konsole
 
 - alt+left move left
 - alt+right move right
+
+19. software
+
+- meta+shift+t konsole
+- meta+shift+e dophin
+- meta+shift+x keepassxc
+- meta+shift+f firefox
+- meta+shift+g chrome
+- meta+shift+c insomnia
+- meta+shift+m telegram
+- meta+shift+u discover (see update)
+
+20. power manager
+
+- meta+shift+l sleep
