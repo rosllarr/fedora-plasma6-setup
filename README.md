@@ -116,12 +116,12 @@ sudo dnf install dbus-glib
 - meta+s minmize window
 - meta+a left maximum
 - meta+d right maximum
+- alt+tab walk through windows
 - meta+tab overview
 - meta+[1..7] workspace 1-7
 - meta+shift+[1..7] window to workspace 1-7
 - meta+tab present window current desktop
 - meta+esc present window all desktop
-- alt+tab walk through windows
 
 18. shortcut konsole
 
