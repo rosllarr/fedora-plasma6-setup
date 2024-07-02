@@ -135,10 +135,13 @@ sudo dnf install dbus-glib
 - meta+shift+x keepassxc
 - meta+shift+f firefox
 - meta+shift+g chrome
-- meta+shift+c insomnia
-- meta+shift+m telegram
+- meta+shift+c telegram
 - meta+shift+u discover (see update)
 
 20. power manager
 
 - meta+shift+l sleep
+
+21. Desktop session -> Start with an empty session
+
+22. No floating bottom bar
