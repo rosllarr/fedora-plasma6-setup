@@ -122,6 +122,7 @@ sudo dnf install dbus-glib
 - meta+tab present window current desktop
 - meta+esc present window all desktop
 - alt+tab walk through windows
+- meta+shift+d peek
 
 18. shortcut konsole
 
