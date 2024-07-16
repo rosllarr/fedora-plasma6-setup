@@ -107,10 +107,16 @@ cp /etc/fonts/conf.d/*.conf ./
 sudo dnf install dbus-glib
 ```
 
-<!-- 11. install group virtualization and install package vagrant -->
+17. install group virtualization
+
+```bash
+sudo dnf group install --with-optional virtualization
+sudo dnf install brctl -y
+```
+
 <!-- 13. install docker -->
 
-17. shortcut kwin
+18. shortcut kwin
 
 - meta+w maximum window
 - meta+s minmize window
@@ -124,6 +130,8 @@ sudo dnf install dbus-glib
 - meta+esc present window all desktop
 - alt+tab walk through windows
 - meta+shift+d peek
+- meta+/ disable touchpad
+- meta+? enable touchpad
 
 18. shortcut konsole
 
